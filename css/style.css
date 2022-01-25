@@ -1,0 +1,150 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+    
+}
+
+body{
+    font-family: whitney-2;
+}
+
+header{
+    width: 100vw;
+    height: 85vh;
+    background: url('../img/jumbo.png');
+}
+
+.container{
+    margin:  auto;
+    width: 50vw;
+    position: relative;
+    text-align: center;
+    height: 60px;
+    
+}
+
+.container>img{
+    position:absolute;
+    left: 0;
+    bottom: 0;
+}
+
+li{
+    
+    text-decoration: none;
+    color: white;
+    font-size: 1.8rem; 
+    width: 6vw;
+    
+}
+
+ul{
+    width: 80%;
+    left: 120px;
+    bottom: 0;
+}
+
+ul,li{
+    display: inline-block;
+}
+
+
+div.container>button{
+    width: 6rem;
+    border-radius: 50px;
+    height: 1.9rem;
+    right: 0;
+    bottom: 0;
+}
+
+div.container>button,ul{
+    position: absolute;
+}
+
+.jumbo-text{
+    width: 40vw;
+    height: 40vh;
+    margin: 200px auto;
+    text-align: center;
+}
+
+h1{
+    font-size: 5rem;
+    color: white;
+}
+
+h2{
+    font-size: 2.2rem;
+    padding: 40px ;
+    color: white;
+}
+
+button.mac-button{
+    margin-right: 40px;
+    width: 13rem;
+}
+
+button.discord-button{
+    width: 17rem;
+    color: white;
+    background-color: rgb(29, 26, 26);
+}
+
+button.mac-button,button.discord-button{
+    border-radius: 50px;
+    height: 4rem;
+    font-weight: bolder;
+}
+
+.main-container{
+    margin:60px auto;
+    width: 100vw;
+    height: 60vh;
+}
+
+.main-container-grey{
+    margin:60px auto;
+    width: 100vw;
+    height: 60vh;
+    background-color: lightgray;
+}
+
+.main-container-content{
+    width: 50vw;
+    height: 100%;
+    border: 2px solid black;
+}
+.left-aside{
+    float: left;
+    width: 50%;
+    text-align: right;
+    border: 2px solid green;
+    height: 100%;
+}
+
+.right-aside{
+    width: 50%;
+    float:left;
+    text-align: left;
+    
+}
+
+h3{
+    font-size: 3rem;
+    
+}
+
+h4{
+    font-size: 1.5rem;
+}
+
+.bg-grey{
+    background-color: lightgray;
+}
