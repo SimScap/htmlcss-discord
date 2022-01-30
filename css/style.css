@@ -155,7 +155,7 @@ main img{
 .bttn-black{
     background-color: black;
     color: white;
-    width: 30%;
+    width: 25%;
     margin-left: 3%;
 }
 .bttn-black,.jumbo-bttn{
@@ -186,4 +186,12 @@ main img{
 }
 .bg-grey{
     background-color: rgb(241, 240, 240);
+}
+
+.padd{
+    padding-top: 30px;
+}
+
+button{
+    font-weight: bolder;
 }
